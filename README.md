@@ -29,5 +29,9 @@ The Excel to Image Converter is a Python application that allows users to conver
 ## Installation
 
 Install required Python packages using pip:
-```pip install pillow jpype1 aspose.cells```
+```pip install pyinstaller tkinter pillow jpype aspose.cells```
+
+Create the .exe file :
+```pyinstaller --onefile -w 'gui.py'```    
+```pyinstaller gui.spec```
 
